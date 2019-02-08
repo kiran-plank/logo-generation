@@ -21,7 +21,7 @@ function changeType() {
     ctxt.fillStyle = "#231f20";
     ctxt.font = "60.1939px JosefinSans-Regular";
     ctxt.textAlign = "center";
-    ctxt.fillText(product.value.toUpperCase(), 370, 500);
+    ctxt.fillText(product.value.toUpperCase(), 370, 480);
 }
 function saveLocal() {
     var image = can.toDataURL("image/png").replace("image/png", "image/octet-stream");
