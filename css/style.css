@@ -1,0 +1,35 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+}
+main{
+    max-width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.canvas-container{
+    border: 1px solid #f0f0f0;
+    width: max-content;
+}
+input{
+    border: 1px solid #ccc;
+    padding: 10px 5px;
+    width: 200px;
+}
+input[type=button]{
+    background: #444;
+    color: #fff;
+    border: 1px solid #444;
+}
+form{
+    padding: 2rem 0;
+}
+.product-name{
+    float: right;
+}
+.saveLocal{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 2rem;
+}

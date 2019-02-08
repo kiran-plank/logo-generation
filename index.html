@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Logo Generation</title>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+    <main>
+        <form>
+            <label for="color">Pick a colour</label>
+            <input class="jscolor" value="898989" onchange="update(this.jscolor)" id="color">
+            <div class="product-name">
+                <input type="text" id="productName" placeholder="Enter Name of the Product">
+                <input type="button" id="copyName" onclick="changeType()" value="Generate">
+            </div>
+        </form>
+
+        <div class="canvas-container">
+            <canvas id="mycanvas" width="764.5px" height="513.5px">
+            </canvas>
+        </div>
+
+        <input type="button" onclick="saveLocal()" value="Draw to Image" class="saveLocal">
+    </main>
+
+    <script src='http://jscolor.com/release/2.0/jscolor-2.0.5/jscolor.js'></script>
+
+
+
+    <script src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
