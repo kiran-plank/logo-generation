@@ -9,6 +9,10 @@ function update(jscolor) {
 
 function changeType() {
     
+    const context = can.getContext('2d');
+
+    context.clearRect(0, 0, can.width, can.height);
+    
     var ctx = can.getContext("2d");
     var ctxt = can.getContext("2d");
 
