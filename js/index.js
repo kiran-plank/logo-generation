@@ -2,13 +2,6 @@ var fill = "#898989";
 var can = document.getElementById("mycanvas");
 var product = document.getElementById("productName");
 
-var link = document.createElement('link');
-link.rel = 'stylesheet';
-link.type = 'text/css';
-link.href = 'https://fonts.googleapis.com/css?family=Josefin+Sans';
-document.getElementsByTagName('head')[0].appendChild(link);
-
-
 function update(jscolor) {
     
     fill = "#" + jscolor;
