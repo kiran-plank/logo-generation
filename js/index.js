@@ -23,7 +23,7 @@ function changeType() {
     ctx.fillStyle = fill;
     ctx.fill(path);
     ctxt.fillStyle = "#231f20";
-    ctxt.font = "60.1939px JosefinSans-Regular";
+    ctxt.font = "60.1939px Josefin Sans";
     ctxt.textAlign = "center";
     ctxt.fillText(product.value.toUpperCase(), 370, 580);
 }
