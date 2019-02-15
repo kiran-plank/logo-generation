@@ -17,7 +17,7 @@ function changeType() {
     var ctxt = can.getContext("2d");
 
     var path = new Path2D(
-        "M 496.2,375.8 375.6,23.6 367.5,0 359.4,23.6 238.9,375.8 0.5,383 244.1,390.3 249.2,390.3 251,385.4 367.5,52.4 484,385.4 485.8,390.4 490.9,390.3 734.6,383 Z"
+        "M 496.2,475.8 375.6,123.6 367.5,100 359.4,123.6 238.9,475.8 0.5,483 244.1,490.3 249.2,490.3 251,485.4 367.5,152.4 484,485.4 485.8,490.4 490.9,490.3 734.6,483 Z"
     );
     can.style.letterSpacing = "26px";
     ctx.fillStyle = fill;
@@ -25,7 +25,7 @@ function changeType() {
     ctxt.fillStyle = "#231f20";
     ctxt.font = "60.1939px JosefinSans-Regular";
     ctxt.textAlign = "center";
-    ctxt.fillText(product.value.toUpperCase(), 370, 480);
+    ctxt.fillText(product.value.toUpperCase(), 370, 580);
 }
 function saveLocal() {
     var image = can.toDataURL("image/png").replace("image/png", "image/octet-stream");
